@@ -19,10 +19,10 @@ function Header({insideHome}) {
   },[wishlist,cart])
   return (
     <>
-      <Navbar expand="lg" className="bg-info">
+      <Navbar expand="lg" className="bg-secondary">
       <Container>
         <Navbar.Brand>
-          <Link to={'/'} style={{textDecoration:"none",color:"white",fontSize:"25px"}}><i class="fa-solid fa-truck-fast fa-beat-fade me-3"></i>
+          <Link to={'/'} style={{textDecoration:"none",color:"black",fontSize:"25px"}}><i class="fa-solid fa-truck-fast fa-beat-fade me-3"></i>
           E-Cart
           </Link>
           </Navbar.Brand>

@@ -13,7 +13,7 @@ function Footer() {
   return (
     <>
       {/* <h1>Footer</h1> */}
-      <MDBFooter className='text-center mt-5 py-4' color='black' bgColor='info'>
+      <MDBFooter className='text-center mt-5 py-4' color='black' bgColor='secondary'>
       <MDBContainer className='p-4'>
         <section className='mb-4'>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
