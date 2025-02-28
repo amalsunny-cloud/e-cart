@@ -70,7 +70,7 @@ function Home() {
     {
       allproducts?.length>0?allproducts.map(product=>(
       <Col key={product?.id}>
-    <Card style={{ width: '18rem' }} className='m-3'>
+    <Card style={{ width: '18rem',borderRadius:"30px"}} className='m-3'>
     <Link to={`/view/${product?.id}`}>
   <Card.Img variant="top" width={"100%"} src={product?.thumbnail} />
   </Link>
