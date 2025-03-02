@@ -31,7 +31,7 @@ function Cart() {
               <div className="row container">
                 <div className="col-lg-1"></div>
                   <div className="col-lg-7">
-                    <div className="table shadow mt-5">
+                    <div className="table shadow p-3 rounded-4">
                       <table>
                         <tr>
                           <th>#</th>
@@ -63,9 +63,9 @@ function Cart() {
                 </div>
               <div className="col-lg-1"></div>
               <div className="col-lg-3">
-                <div className="card shadow rounded mt-5 p-5">
-                  <h2 className='text-dark fw-bolder'>Cart Summary</h2>
-                  <h3><span className='text-dark fw-bolder'>Total Products: </span>{cart?.length}</h3>
+                <div className="card shadow rounded p-5">
+                  <h2 className='text-dark fw-bold'>Cart Summary</h2>
+                  <h3><span className='text-dark fw-bold'>Total Products: </span>{cart?.length}</h3>
                   <h3>Total Price:<span className='text-danger fw-bolder'>${total}</span></h3>
                 </div>
                 <div className="d-grid">

@@ -26,10 +26,10 @@ function Wishlist() {
   {wishlist?.length>0?wishlist.map(product=>(
     <Col>
     
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem',borderRadius:"20px" ,padding:"10px" }}>
 <Card.Img variant="top" width={"100%"} src={product?.thumbnail} />
 <Card.Body>
-  <Card.Title>{product?.title}</Card.Title>
+  <Card.Title style={{color:"red"}}>{product?.title}</Card.Title>
   <Card.Text>
     Some quick example text to build on the card title and make up the
     bulk of the card's content.
