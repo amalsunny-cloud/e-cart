@@ -23,7 +23,7 @@ function Header({insideHome}) {
       <Container>
         <Navbar.Brand>
           <Link to={'/'} style={{textDecoration:"none",color:"black",fontSize:"25px"}}><i class="fa-solid fa-truck-fast fa-beat-fade me-3"></i>
-          E-Cart
+          E-Kart
           </Link>
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

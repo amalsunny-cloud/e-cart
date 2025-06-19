@@ -45,11 +45,11 @@ function Home() {
 
 
     if(existingProduct){
-      alert("Items added")
+      alert("Items added...")
       dispatch(addToCart(product))
     }
     else{
-      alert("Items added")
+      alert("Items added...")
       dispatch(addToCart(product))
     }
   }
